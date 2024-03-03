@@ -1,0 +1,18 @@
+{
+  "name": "curso-sergiecode",
+  "version": "1.0.0",
+  "description": "```bash npm init  ```",
+  "main": "src/app.js",
+
+  "type": "module",
+
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "vengardus",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

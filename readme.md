@@ -1,5 +1,7 @@
 # PROYECTO NODE JS
 
+[Desdde el curso de Sergie Code](https://www.youtube.com/watch?v=I17ln313Pjk&t=4063s)
+
 ## INICIANDO PROYECTO
 
 ```bash
@@ -44,7 +46,7 @@ npm install --save-dev nodemon
   },
 ```
 
-## Import / Export
+## IMPORT / EXPORT
 
 Configurarpackage.json para trabajar modo module.
 
@@ -66,4 +68,24 @@ export const getTitle = () => 'Curso NodeJS'
 import {getTitle} from './function.js'  // debe incluirse la extensión del fichero
 
 console.lo(getTitle())
+```
+
+## VARIABLES DE ENTORNO
+
+```bash
+npm i dotenv
+```
+
+```text   file .env
+PORT=3000
+db_USER=vengardus
+```
+
+```js   app.js
+import {config} from "dotenv"
+
+config()
+
+console.log(process.env.PORT)
+console.log(process.env.DB_USER)
 ```

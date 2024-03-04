@@ -89,3 +89,8 @@ config()
 console.log(process.env.PORT)
 console.log(process.env.DB_USER)
 ```
+
+## INSTALANDO JSON-SERVER PARA PRUEBAS APIREST
+
+[instalar json-server](https://www.npmjs.com/package/json-server)
+Las pruebas http las hice con la extensión ThunderClient de VSCode

@@ -90,7 +90,24 @@ console.log(process.env.PORT)
 console.log(process.env.DB_USER)
 ```
 
-## INSTALANDO JSON-SERVER PARA PRUEBAS APIREST
+## PRACTICA 1: JSON-SERVER PARA PRUEBAS APIREST
 
 [instalar json-server](https://www.npmjs.com/package/json-server)
 Las pruebas http las hice con la extensión ThunderClient de VSCode
+
+## PRACTICA 2: WEB SERVER
+
+```bash
+npm i env-var
+npm i express
+```
+
+Copiar archivos desde [sample red social pajarito](https://github.com/sergiecode/red-social-pajarito-js/tree/master) a carpeta public (raiz del proyecto)
+
+Configurar archivos:
+
+- src/config/env.js
+- src/server/server.js
+- app.js (o app.webserver.js si existe posteriormente).
+
+En el navegador: localhost:3000
